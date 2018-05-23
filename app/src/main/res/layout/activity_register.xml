@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/login_gb"
+    android:layout_gravity="center"
+    android:paddingTop="150dp"
+    >
+    <EditText
+        android:id="@+id/user_register"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="请输入账号"
+        android:layout_gravity="center"/>
+    <!--<View-->
+    <!--android:layout_width="300dp"-->
+    <!--android:layout_height="1dp"-->
+    <!--android:background="#ffc0c3c4"-->
+    <!--android:layout_gravity="center"-->
+    <!--/>-->
+    <EditText
+        android:id="@+id/password_register"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="请输入密码"
+        android:layout_gravity="center"
+        />
+    <Spinner
+        android:layout_marginTop="5dp"
+        android:id="@+id/spinner"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="40dp"
+        />
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="注册"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

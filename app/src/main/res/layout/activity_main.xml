@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.qway.MainActivity"
+    android:orientation="vertical"
+    android:background="#327ace"
+    >
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+     android:gravity="center"
+     android:text="盘点系统"
+     android:textColor="#fcfbfb"
+     android:textSize="40dp"
+     />
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+     android:layout_marginTop="25dp"
+     android:layout_marginRight="10dp"
+     android:layout_marginLeft="20dp"
+     >
+  <ImageButton
+      android:id="@+id/check_bt"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@drawable/pandian"
+      />
+
+  <ImageButton
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@drawable/check"
+      android:layout_marginLeft="10dp"
+      android:id="@+id/pandian_bt" />
+ </LinearLayout>
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+     android:layout_marginTop="10dp"
+     android:layout_marginRight="10dp"
+     android:layout_marginLeft="20dp">
+  <ImageButton
+      android:id="@+id/data_bt"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@drawable/data"
+      />
+  <ImageButton
+      android:id="@+id/setting_bt"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@drawable/setting"
+      android:layout_marginLeft="10dp"
+
+      />
+ </LinearLayout>
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical"
+     android:layout_marginTop="40dp"
+
+     >
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="----Copyright @ 2018-2019 LTW----"
+      android:textColor="#fcfbfb"
+      android:textSize="20dp"
+      android:id="@+id/textView"
+      android:gravity="center"
+      />
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="盘点系统V 1.0.4"
+      android:textColor="#fcfbfb"
+      android:textSize="20dp"
+      android:gravity="center"
+      />
+ </LinearLayout>
+
+</LinearLayout>
